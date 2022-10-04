@@ -2,7 +2,7 @@ const loader = document.querySelector('.loader');
 
 window.addEventListener('load', () => {
 
-    // Don't forget to remove it in the real project
+    // Making 5s delay in website loading
     setTimeout(() => {
 
         loader.classList.add('fadeOut');
